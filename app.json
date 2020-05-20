@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.visibacare.stonkify.app"
+    },
+    "android": {
+      "package": "com.visibacare.stonkify.app"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
